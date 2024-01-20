@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Sans&family=Montserrat&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: none;
+    --bs-gutter-x: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.sidebar {
+    background-color: lightgray;
+    width: 12vw;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    font-family: "Montserrat", sans-serif;
+    width: 88vw;
+}
+
+.infoContainer {
+    width: 80%;
+    height: 74vh;
+    margin: 90px auto;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Cutive Mono", monospace;
+}
+
+.hello {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.moreAbout {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.buttons button {
+    padding: 10px 15px 8px 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 3px 4px 0px 0px rgb(33, 33, 33);
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.devPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.devPhoto img {
+    height: 60%;
+    border-radius: 999px;
+}
+
+/* .contactForm{
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 6px 12px;
+    border: 1px solid gray;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+} */
+
+.main h1{
+    text-align: center;
+}
+
+.main h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contactForm {
+    width: 60%;
+    margin: auto;
+}
+
+.contactForm form div input {
+    border: 1px solid gray;
+    outline: none;
+}
+
+.contactForm form div input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: dodgerblue;
+}
+
+.blogContainer{
+    padding: 40px;
+}
+
+.blogItem h2{
+    text-align: left;
+    margin: 15px 0;
+}
+
+.readMoreButton{
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.skillsContainer{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 300px;
+}
+
+.skill{
+    width: 100%;
+    height: 18px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.skill>div{
+    height: 100%;
+}
+
+.skill--html{
+    width: 90%;
+    background-color: tomato;
+}
+.skill--css{
+    width: 80%;
+    background-color: dodgerblue;
+}
+.skill--js{
+    width: 80%;
+    background-color: rgb(221, 221, 0);
+}
+.skill--node{
+    width: 70%;
+    background-color: rgb(18, 201, 18);
+}
+.skill--react{
+    width: 85%;
+    background-color: rgb(102, 202, 241);
+}
